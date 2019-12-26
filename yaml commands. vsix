@@ -1,0 +1,5 @@
+sudo npm install -g vsce
+
+      PACKAGE_VERSION=$(cat version.txt)
+
+      vsce publish -p $MARKET_KEY --packagePath git-mob-$PACKAGE_VERSION.vsix
