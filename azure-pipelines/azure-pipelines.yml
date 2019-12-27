@@ -2,7 +2,7 @@ trigger:
   - master
 
 pool:
-  vmImage: ubuntu-16.04
+  vmImage: windows 10
 
 steps:
   # for convenience, we tag CI-produced packages with a version number
